@@ -19,16 +19,16 @@ from networktables import NetworkTables
 import commands2
 
 #import apriltag
-#import logging
+import logging
 
-#logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)
 
-#def run():
-    #raise ValueError()
+def run():
+    raise ValueError()
 
 class Robot(wpilib.TimedRobot):
-    #sd = NetworkTables.getTable("SmartDashboard")
-    #NetworkTables.initialize()
+    sd = NetworkTables.getTable("SmartDashboard")
+    NetworkTables.initialize()
     
     
 
